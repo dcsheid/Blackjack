@@ -52,33 +52,6 @@ class Deck:
         single_card = self.deck.pop()
         return single_card
 
-# class Bankroll:
-
-#   def __init__(self,owner,balance=100):
-#     self.owner = owner
-#     self.balance = balance
-
-#   def deposit(self,dep_amt):
-#     self.balance += dep_amt
-#     print(f'Deposited ${dep_amt} to your bankroll. Your balance is now ${self.balance}')
-
-#   def withdraw(self,wd_amt):
-#     if self.balance >= wd_amt:
-#       self.balance -= wd_amt
-#       print('Withdrawal Accepted. Your new balance is: {}'.format(self.balance))
-#     elif self.balance >= 0:
-#       print('Funds Unavailable. Game over!')
-
-#   def __str__(self):
-#     return f"Owner: {self.owner} \nBalance: {self.balance}"
-
-# testroll = Bankroll("mike", 250)
-# s = testroll.__str__
-
-# # Do other stuff
-
-# print(s)
-
 
 class Hand:
 
